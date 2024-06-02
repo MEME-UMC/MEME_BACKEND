@@ -2,7 +2,7 @@ package umc.meme.portfolio.domain.favorite.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import umc.meme.portfolio.domain.favorite.entity.FavoritePortfolio;
-import umc.meme.portfolio.domain.model.entity.Model;
+
 import umc.meme.portfolio.domain.portfolio.entity.Portfolio;
 
 import java.util.List;

@@ -5,7 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import umc.meme.member.domain.artist.entity.Artist;
-import umc.meme.member.global.enums.*;
+import global.enums.*;
 
 import java.util.List;
 

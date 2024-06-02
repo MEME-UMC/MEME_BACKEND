@@ -7,8 +7,8 @@ import umc.meme.member.domain.favorite.dto.request.FavoriteArtistDto;
 import umc.meme.member.domain.favorite.dto.request.FavoritePortfolioDto;
 import umc.meme.member.domain.model.dto.request.ModelProfileDto;
 import umc.meme.member.domain.model.service.ModelService;
-import umc.meme.member.global.SuccessStatus;
-import umc.meme.member.global.response.ApiResponse;
+import global.SuccessStatus;
+import global.response.ApiResponse;
 
 
 @RestController

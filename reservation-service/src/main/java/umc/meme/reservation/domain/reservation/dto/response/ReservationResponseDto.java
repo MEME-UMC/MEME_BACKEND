@@ -6,11 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import umc.meme.reservation.domain.reservation.entity.Reservation;
-import umc.meme.reservation.global.ErrorStatus;
-import umc.meme.reservation.global.enums.DayOfWeek;
-import umc.meme.reservation.global.enums.Status;
-import umc.meme.reservation.global.enums.Times;
-import umc.meme.reservation.global.exception.GlobalException;
+import global.*;
 
 import java.time.LocalDate;
 

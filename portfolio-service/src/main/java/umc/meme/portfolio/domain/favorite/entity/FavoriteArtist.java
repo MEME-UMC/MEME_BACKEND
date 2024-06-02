@@ -5,9 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import umc.meme.portfolio.domain.artist.entity.Artist;
+
 import umc.meme.portfolio.domain.common.BaseEntity;
-import umc.meme.portfolio.domain.model.entity.Model;
+
 
 @Builder
 @Getter

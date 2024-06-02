@@ -1,13 +1,14 @@
 package umc.meme.member.domain.artist.controller;
 
+import global.SuccessStatus;
+import global.response.ApiResponse;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import umc.meme.member.domain.artist.dto.request.ArtistProfileDto;
 import umc.meme.member.domain.artist.dto.request.AvailableTimeRequestDto;
 import umc.meme.member.domain.artist.service.ArtistService;
-import umc.meme.member.global.SuccessStatus;
-import umc.meme.member.global.response.ApiResponse;
+
 
 @RestController
 @RequiredArgsConstructor

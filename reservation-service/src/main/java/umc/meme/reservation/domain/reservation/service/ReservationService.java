@@ -10,9 +10,9 @@ import umc.meme.reservation.domain.reservation.dto.request.ReservationTimeReques
 import umc.meme.reservation.domain.reservation.dto.response.*;
 import umc.meme.reservation.domain.reservation.entity.Reservation;
 import umc.meme.reservation.domain.reservation.repository.ReservationRepository;
-import umc.meme.reservation.global.ErrorStatus;
-import umc.meme.reservation.global.enums.Status;
-import umc.meme.reservation.global.exception.GlobalException;
+import global.ErrorStatus;
+import global.enums.Status;
+import global.exception.GlobalException;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

@@ -5,12 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import umc.meme.reservation.domain.artist.entity.AvailableTime;
 import umc.meme.reservation.domain.common.BaseEntity;
-import umc.meme.reservation.domain.model.entity.Model;
-import umc.meme.reservation.domain.portfolio.entity.Portfolio;
-import umc.meme.reservation.domain.user.User;
-import umc.meme.reservation.global.enums.Status;
+
+import global.enums.Status;
 
 @Builder
 @Getter

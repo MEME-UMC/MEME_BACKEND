@@ -6,12 +6,11 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-import umc.meme.member.domain.artist.entity.Artist;
+
 import umc.meme.portfolio.domain.common.BaseEntity;
 import umc.meme.portfolio.domain.portfolio.dto.request.CreatePortfolioDto;
 import umc.meme.portfolio.domain.portfolio.dto.request.UpdatePortfolioDto;
-import umc.meme.portfolio.global.enums.Category;
-import umc.meme.reservation.domain.review.entity.Review;
+import global.enums.Category;
 
 import java.util.ArrayList;
 import java.util.List;

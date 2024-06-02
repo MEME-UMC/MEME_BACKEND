@@ -7,23 +7,20 @@ import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-import umc.meme.reservation.domain.model.entity.Model;
-import umc.meme.reservation.domain.model.repository.ModelRepository;
-import umc.meme.reservation.domain.portfolio.entity.Portfolio;
-import umc.meme.reservation.domain.portfolio.repository.PortfolioRepository;
+
 import umc.meme.reservation.domain.reservation.entity.Reservation;
 import umc.meme.reservation.domain.reservation.repository.ReservationRepository;
 import umc.meme.reservation.domain.review.dto.request.DeleteReviewDto;
-import umc.meme.reservation.domain.review.dto.request.ReviewDto;
+
 import umc.meme.reservation.domain.review.dto.request.UpdateReviewDto;
 import umc.meme.reservation.domain.review.dto.response.*;
 import umc.meme.reservation.domain.review.entity.Review;
 import umc.meme.reservation.domain.review.entity.ReviewImg;
 import umc.meme.reservation.domain.review.repository.ReviewImgRepository;
-import umc.meme.reservation.domain.review.repository.ReviewRepository;
-import umc.meme.reservation.global.ErrorStatus;
-import umc.meme.reservation.global.enums.Status;
-import umc.meme.reservation.global.exception.GlobalException;
+
+import global.ErrorStatus;
+import global.enums.Status;
+import global.exception.GlobalException;
 
 import java.util.ArrayList;
 import java.util.List;

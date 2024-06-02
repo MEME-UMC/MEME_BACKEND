@@ -8,8 +8,8 @@ import lombok.experimental.SuperBuilder;
 import umc.meme.member.domain.artist.dto.request.ArtistProfileDto;
 
 import umc.meme.member.domain.user.User;
-import umc.meme.member.global.enums.*;
-import umc.meme.portfolio.domain.portfolio.entity.Portfolio;
+import global.enums.*;
+
 
 
 import java.util.List;

@@ -1,0 +1,65 @@
+package umc.meme.reservation.domain.reservation.dto.response;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import umc.meme.reservation.domain.artist.entity.Artist;
+import umc.meme.reservation.domain.model.entity.Model;
+import umc.meme.reservation.domain.portfolio.entity.Portfolio;
+import umc.meme.reservation.domain.reservation.entity.Reservation;
+import umc.meme.reservation.global.enums.*;
+
+import java.time.LocalDate;
+
+@Getter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class ReservationDetailDto {
+    private Long reservationId;
+    private Long portfolioId;
+    //아티스트 정보
+    private Long artistId;
+    private String artistNickName;
+    private String artistProfileImg;
+    private String artistEmail;
+    //예약 정보
+    private String portfolioName;
+    private Category category;
+    private LocalDate reservationDate;
+    private Times reservationTime;
+    private String location;
+    private int price;
+    //모델 정보
+    private String modelName;
+    // TODO- ADD: model contact field
+    private Gender gender;
+    private SkinType skinType;
+    private PersonalColor personalColor;
+
+    public static ReservationDetailDto from(Reservation reservation, Model model){
+        Portfolio portfolio = reservation.getPortfolio();
+        Artist artist = portfolio.getArtist();
+        return ReservationDetailDto.builder()
+                .reservationId(reservation.getReservationId())
+                .portfolioId(portfolio.getPortfolioId())
+                .artistId(artist.getUserId())
+                .artistNickName(artist.getNickname())
+                .artistProfileImg(artist.getProfileImg())
+                .artistEmail(artist.getEmail())
+                .portfolioName(portfolio.getMakeupName())
+                .category(portfolio.getCategory())
+                .reservationDate(reservation.getAvailableTime().getDate())
+                .reservationTime(reservation.getAvailableTime().getTimes())
+                .location(reservation.getLocation())
+                .price(portfolio.getPrice())
+                .modelName(model.getUsername())
+                .gender(model.getGender())
+                .skinType(model.getSkinType())
+                .personalColor(model.getPersonalColor())
+                .build();
+    }
+
+}
+

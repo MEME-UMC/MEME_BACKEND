@@ -5,8 +5,9 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import umc.meme.member.domain.artist.entity.Artist;
-import umc.meme.member.domain.portfolio.dto.response.SimplePortfolioDto;
+
 import umc.meme.member.global.enums.*;
+import umc.meme.portfolio.domain.portfolio.dto.response.SimplePortfolioDto;
 
 import java.util.List;
 
@@ -31,7 +32,7 @@ public class ArtistDto {
 
     private WorkExperience workExperience;
 
-    private String shopLocation; //샵 위치
+    private String portfolioLocation; //샵 위치
 
     private List<Region> region;
 

@@ -10,8 +10,6 @@ build/
 
 **/resources/application-prod.yml
 
-gradle/
-
 ### STS ###
 .apt_generated
 .classpath

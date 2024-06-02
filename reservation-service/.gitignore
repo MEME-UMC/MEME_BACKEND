@@ -1,14 +1,9 @@
-# Mac os
-*.Ds_Store
-
 HELP.md
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
-
-*.yml
 
 ### STS ###
 .apt_generated

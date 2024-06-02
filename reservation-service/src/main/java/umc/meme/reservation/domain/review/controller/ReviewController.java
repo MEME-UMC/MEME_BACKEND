@@ -7,8 +7,8 @@ import umc.meme.reservation.domain.review.dto.request.DeleteReviewDto;
 
 import umc.meme.reservation.domain.review.dto.request.UpdateReviewDto;
 import umc.meme.reservation.domain.review.service.ReviewService;
-import umc.meme.reservation.global.SuccessStatus;
-import umc.meme.reservation.global.response.ApiResponse;
+import global.SuccessStatus;
+import global.response.ApiResponse;
 
 @RestController
 @RequiredArgsConstructor

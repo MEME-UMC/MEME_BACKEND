@@ -6,8 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import umc.meme.member.domain.artist.entity.Artist;
 
-import umc.meme.member.global.enums.*;
-import umc.meme.portfolio.domain.portfolio.dto.response.SimplePortfolioDto;
+import global.enums.*;
+
 
 import java.util.List;
 

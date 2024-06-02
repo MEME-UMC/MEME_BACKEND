@@ -5,8 +5,8 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-import umc.meme.reservation.global.enums.MakeupLocation;
-import umc.meme.reservation.global.enums.Region;
+import global.enums.MakeupLocation;
+import global.enums.Region;
 
 import java.util.List;
 

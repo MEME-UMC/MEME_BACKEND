@@ -6,7 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import umc.meme.reservation.domain.reservation.entity.Reservation;
-import umc.meme.reservation.global.enums.*;
+import global.enums.*;
 
 import java.time.LocalDate;
 

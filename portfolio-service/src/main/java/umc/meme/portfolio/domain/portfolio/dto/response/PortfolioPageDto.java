@@ -6,8 +6,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.domain.Page;
 import umc.meme.portfolio.domain.portfolio.entity.Portfolio;
-import umc.meme.portfolio.global.ErrorStatus;
-import umc.meme.portfolio.global.exception.GlobalException;
+import global.ErrorStatus;
+import global.exception.GlobalException;
 
 import java.util.List;
 

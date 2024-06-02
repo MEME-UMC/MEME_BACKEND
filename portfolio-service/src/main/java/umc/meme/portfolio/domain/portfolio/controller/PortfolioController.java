@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.*;
 import umc.meme.portfolio.domain.portfolio.dto.request.CreatePortfolioDto;
 import umc.meme.portfolio.domain.portfolio.dto.request.UpdatePortfolioDto;
 import umc.meme.portfolio.domain.portfolio.service.PortfolioService;
-import umc.meme.portfolio.global.SuccessStatus;
-import umc.meme.portfolio.global.response.ApiResponse;
+import global.SuccessStatus;
+import global.response.ApiResponse;
 
 @RestController
 @RequiredArgsConstructor

@@ -5,9 +5,9 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import umc.meme.member.domain.model.entity.Model;
-import umc.meme.member.global.enums.Gender;
-import umc.meme.member.global.enums.PersonalColor;
-import umc.meme.member.global.enums.SkinType;
+import global.enums.Gender;
+import global.enums.PersonalColor;
+import global.enums.SkinType;
 
 @Data
 @AllArgsConstructor

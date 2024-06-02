@@ -7,9 +7,8 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 import org.springframework.stereotype.Repository;
-import umc.meme.member.domain.artist.entity.Artist;
 import umc.meme.portfolio.domain.portfolio.entity.Portfolio;
-import umc.meme.portfolio.global.enums.Category;
+import global.enums.Category;
 
 @Repository
 public interface PortfolioRepository extends JpaRepository<Portfolio, Long> {

@@ -6,9 +6,9 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import umc.meme.member.domain.artist.dto.request.AvailableTimeRequestDto;
-import umc.meme.member.domain.reservation.entity.Reservation;
-import umc.meme.member.global.enums.DayOfWeek;
-import umc.meme.member.global.enums.Times;
+
+import global.enums.DayOfWeek;
+import global.enums.Times;
 
 import java.time.LocalDate;
 

@@ -8,10 +8,10 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
-import umc.meme.member.domain.mypage.entity.Inquiry;
-import umc.meme.member.global.enums.Gender;
-import umc.meme.member.global.enums.Provider;
-import umc.meme.member.global.enums.UserStatus;
+
+import global.enums.Gender;
+import global.enums.Provider;
+import global.enums.UserStatus;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

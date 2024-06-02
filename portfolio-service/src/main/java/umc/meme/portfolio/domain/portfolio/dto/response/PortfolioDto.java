@@ -5,12 +5,12 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-import umc.meme.member.domain.artist.entity.Artist;
+
 import umc.meme.portfolio.domain.favorite.entity.FavoritePortfolio;
 import umc.meme.portfolio.domain.portfolio.entity.Portfolio;
-import umc.meme.portfolio.global.enums.Category;
-import umc.meme.portfolio.global.enums.MakeupLocation;
-import umc.meme.portfolio.global.enums.Region;
+import global.enums.Category;
+import global.enums.MakeupLocation;
+import global.enums.Region;
 
 import java.util.List;
 

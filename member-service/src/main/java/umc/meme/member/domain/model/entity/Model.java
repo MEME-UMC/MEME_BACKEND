@@ -8,13 +8,9 @@ import lombok.experimental.SuperBuilder;
 import umc.meme.member.domain.favorite.entity.FavoriteArtist;
 import umc.meme.member.domain.favorite.entity.FavoritePortfolio;
 import umc.meme.member.domain.model.dto.request.ModelProfileDto;
-import umc.meme.member.domain.reservation.entity.Reservation;
-import umc.meme.member.domain.review.entity.Review;
 import umc.meme.member.domain.user.User;
-import umc.meme.member.global.enums.PersonalColor;
-import umc.meme.member.global.enums.Provider;
-import umc.meme.member.global.enums.SkinType;
-import umc.meme.member.global.enums.UserStatus;
+import global.enums.*;
+
 
 import java.util.List;
 

@@ -21,10 +21,8 @@ import umc.meme.member.domain.favorite.repository.FavoritePortfolioRepository;
 import umc.meme.member.domain.model.dto.request.ModelProfileDto;
 import umc.meme.member.domain.model.entity.Model;
 import umc.meme.member.domain.model.repository.ModelRepository;
-import umc.meme.member.domain.portfolio.entity.Portfolio;
-import umc.meme.member.domain.portfolio.repository.PortfolioRepository;
-import umc.meme.member.global.ErrorStatus;
-import umc.meme.member.global.exception.GlobalException;
+import global.ErrorStatus;
+import global.exception.GlobalException;
 
 import java.util.List;
 import java.util.stream.Collectors;

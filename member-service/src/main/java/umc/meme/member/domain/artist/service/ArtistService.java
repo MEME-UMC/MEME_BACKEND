@@ -14,10 +14,10 @@ import umc.meme.member.domain.favorite.entity.FavoriteArtist;
 import umc.meme.member.domain.favorite.repository.FavoriteArtistRepository;
 import umc.meme.member.domain.model.entity.Model;
 import umc.meme.member.domain.model.repository.ModelRepository;
-import umc.meme.member.global.ErrorStatus;
-import umc.meme.member.global.enums.DayOfWeek;
-import umc.meme.member.global.enums.Times;
-import umc.meme.member.global.exception.GlobalException;
+import global.ErrorStatus;
+import global.enums.DayOfWeek;
+import global.enums.Times;
+import global.exception.GlobalException;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

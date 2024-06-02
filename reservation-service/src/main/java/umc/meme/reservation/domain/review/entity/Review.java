@@ -6,11 +6,8 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import umc.meme.reservation.domain.common.BaseEntity;
-import umc.meme.reservation.domain.model.entity.Model;
-import umc.meme.reservation.domain.portfolio.entity.Portfolio;
-import umc.meme.reservation.domain.review.dto.request.ReviewDto;
+
 import umc.meme.reservation.domain.review.dto.request.UpdateReviewDto;
-import umc.meme.reservation.domain.user.User;
 
 import java.util.ArrayList;
 import java.util.List;

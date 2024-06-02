@@ -7,6 +7,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import umc.meme.member.domain.artist.entity.Artist;
+import umc.meme.portfolio.domain.common.BaseEntity;
 import umc.meme.portfolio.domain.portfolio.dto.request.CreatePortfolioDto;
 import umc.meme.portfolio.domain.portfolio.dto.request.UpdatePortfolioDto;
 import umc.meme.portfolio.global.enums.Category;

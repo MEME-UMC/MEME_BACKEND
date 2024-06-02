@@ -4,12 +4,13 @@ import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.*;
 import org.springframework.stereotype.Service;
-import umc.meme.portfolio.domain.artist.entity.Artist;
-import umc.meme.portfolio.domain.artist.repository.ArtistRepository;
+
+import umc.meme.member.domain.artist.entity.Artist;
+import umc.meme.member.domain.artist.repository.ArtistRepository;
+import umc.meme.member.domain.model.repository.ModelRepository;
 import umc.meme.portfolio.domain.favorite.entity.FavoritePortfolio;
 import umc.meme.portfolio.domain.favorite.repository.FavoritePortfolioRepository;
-import umc.meme.portfolio.domain.model.entity.Model;
-import umc.meme.portfolio.domain.model.repository.ModelRepository;
+
 import umc.meme.portfolio.domain.portfolio.dto.request.CreatePortfolioDto;
 import umc.meme.portfolio.domain.portfolio.dto.request.UpdatePortfolioDto;
 import umc.meme.portfolio.domain.portfolio.dto.response.PortfolioDetailDto;

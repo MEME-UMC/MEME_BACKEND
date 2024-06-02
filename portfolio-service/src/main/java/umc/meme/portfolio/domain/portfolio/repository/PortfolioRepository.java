@@ -5,10 +5,13 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-import umc.meme.portfolio.domain.artist.entity.Artist;
+
+import org.springframework.stereotype.Repository;
+import umc.meme.member.domain.artist.entity.Artist;
 import umc.meme.portfolio.domain.portfolio.entity.Portfolio;
 import umc.meme.portfolio.global.enums.Category;
 
+@Repository
 public interface PortfolioRepository extends JpaRepository<Portfolio, Long> {
     @Query("SELECT p FROM Portfolio p " +
             "WHERE p.artist = :artist " +

@@ -3,10 +3,7 @@ package umc.meme.reservation.domain.reservation.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-import umc.meme.portfolio.domain.artist.entity.Artist;
-import umc.meme.portfolio.domain.model.entity.Model;
-import umc.meme.portfolio.domain.portfolio.entity.Portfolio;
-import umc.meme.portfolio.domain.reservation.entity.Reservation;
+
 
 import java.util.List;
 import java.util.Optional;

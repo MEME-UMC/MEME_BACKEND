@@ -3,15 +3,7 @@ package umc.meme.reservation.domain.reservation.service;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import umc.meme.reservation.domain.artist.dto.response.AvailableTimeDto;
-import umc.meme.reservation.domain.artist.entity.Artist;
-import umc.meme.reservation.domain.artist.entity.AvailableTime;
-import umc.meme.reservation.domain.artist.repository.ArtistRepository;
-import umc.meme.reservation.domain.artist.repository.AvailableTimeRepository;
-import umc.meme.reservation.domain.model.entity.Model;
-import umc.meme.reservation.domain.model.repository.ModelRepository;
-import umc.meme.reservation.domain.portfolio.entity.Portfolio;
-import umc.meme.reservation.domain.portfolio.repository.PortfolioRepository;
+
 import umc.meme.reservation.domain.reservation.dto.request.AlterReservationDto;
 import umc.meme.reservation.domain.reservation.dto.request.ReservationRequestDto;
 import umc.meme.reservation.domain.reservation.dto.request.ReservationTimeRequestDto;

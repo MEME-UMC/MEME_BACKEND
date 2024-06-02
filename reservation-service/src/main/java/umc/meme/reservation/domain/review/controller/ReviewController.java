@@ -4,7 +4,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import umc.meme.reservation.domain.review.dto.request.DeleteReviewDto;
-import umc.meme.reservation.domain.review.dto.request.ReviewDto;
+
 import umc.meme.reservation.domain.review.dto.request.UpdateReviewDto;
 import umc.meme.reservation.domain.review.service.ReviewService;
 import umc.meme.reservation.global.SuccessStatus;

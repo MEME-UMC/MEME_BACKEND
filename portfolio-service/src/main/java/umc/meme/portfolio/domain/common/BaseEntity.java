@@ -1,4 +1,4 @@
-package umc.meme.shop.domain.common;
+package umc.meme.portfolio.domain.common;
 
 import jakarta.persistence.EntityListeners;
 import jakarta.persistence.MappedSuperclass;

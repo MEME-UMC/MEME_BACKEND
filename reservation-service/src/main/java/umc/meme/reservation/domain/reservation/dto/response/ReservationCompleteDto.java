@@ -4,8 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import umc.meme.reservation.domain.artist.entity.AvailableTime;
-import umc.meme.reservation.domain.portfolio.entity.Portfolio;
+
 import umc.meme.reservation.domain.reservation.entity.Reservation;
 import umc.meme.reservation.global.enums.DayOfWeek;
 import umc.meme.reservation.global.enums.Times;

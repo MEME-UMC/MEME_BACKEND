@@ -4,7 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import umc.meme.portfolio.domain.artist.entity.Artist;
+
+import umc.meme.member.domain.artist.entity.Artist;
 import umc.meme.portfolio.domain.portfolio.entity.Portfolio;
 import umc.meme.portfolio.global.enums.Category;
 import umc.meme.portfolio.global.enums.MakeupLocation;

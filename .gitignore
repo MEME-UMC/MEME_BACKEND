@@ -10,6 +10,8 @@ build/
 
 *.yml
 
+gradle/
+
 ### STS ###
 .apt_generated
 .classpath

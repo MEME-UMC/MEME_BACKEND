@@ -1,0 +1,42 @@
+package umc.meme.member.domain.artist.dto.request;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import umc.meme.member.domain.artist.entity.Artist;
+import umc.meme.member.global.enums.*;
+
+import java.util.List;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class ArtistProfileDto {
+    private Long userId;
+    private String profileImg;
+    private String nickname;
+    private Gender gender;
+    private String introduction;
+    private WorkExperience workExperience;
+    private List<Region> region;
+    private List<Category> specialization;
+    private MakeupLocation makeupLocation;
+    private String shopLocation;
+
+    public static ArtistProfileDto from(Artist artist){
+        return ArtistProfileDto.builder()
+                .userId(artist.getUserId())
+                .profileImg(artist.getProfileImg())
+                .nickname(artist.getNickname())
+                .gender(artist.getGender())
+                .introduction(artist.getIntroduction())
+                .workExperience(artist.getWorkExperience())
+                .region(artist.getRegion())
+                .specialization(artist.getSpecialization())
+                .makeupLocation(artist.getMakeupLocation())
+                .shopLocation(artist.getShopLocation())
+                .build();
+    }
+}

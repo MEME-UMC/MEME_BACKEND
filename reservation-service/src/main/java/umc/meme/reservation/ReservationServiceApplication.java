@@ -1,4 +1,4 @@
-package dev.limjustin.reservation;
+package umc.meme.reservation;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

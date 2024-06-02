@@ -1,10 +1,10 @@
-package dev.limjustin.member;
+package umc.meme.portfolio;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MemberServiceApplicationTests {
+class PortfolioServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

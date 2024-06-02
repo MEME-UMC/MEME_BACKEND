@@ -1,4 +1,4 @@
-package dev.limjustin.portfolio;
+package umc.meme.portfolio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

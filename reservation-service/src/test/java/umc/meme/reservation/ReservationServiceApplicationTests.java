@@ -1,4 +1,4 @@
-package dev.limjustin.reservation;
+package umc.meme.reservation;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
